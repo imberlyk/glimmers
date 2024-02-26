@@ -47,11 +47,10 @@ ul, li {
   padding: 0;
 }
 
-
-
 header {
   padding: 0px 0px; /* Add padding to the header */
 }
+
 
 .top-menu {
   display: flex;
@@ -77,6 +76,8 @@ header {
 }
 
 
+/* Bottom */
+
 footer{
   display: inline-flex;
   position: absolute;
@@ -95,8 +96,14 @@ h3{
 }
 
 
-
-
+h2{
+  font-size: 25vh;
+  position: absolute;
+ top: 1vh;
+  font-family: 'Wagon';
+  line-height: 15vh;
+  color:#8300fe;
+}
 #logo1{
   font-family:Arial, Helvetica, sans-serif;
   font-weight: lighter;
@@ -108,11 +115,11 @@ h3{
 
 
 
+/* accordion  */
+
 .accordion {
   border: 1px solid  #1e00fe;
 }
-
-
 
 .accordion-title {
   display: flex;
@@ -141,6 +148,8 @@ h3{
   display: none;
 }
 
+
+/*  Zine */
 #zine{
 
   position: fixed;
