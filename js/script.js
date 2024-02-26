@@ -3,7 +3,7 @@ $(document).ready(function(){
   $('.accordion-title').click(function(){
     $(this).parent().toggleClass('active');
     $(this).next('.accordion-content').slideToggle();
-    $(this).find('.accordion-sign').text($(this).parent().hasClass('active') ? '-' : '+');
+    $(this).find('.accordion-sign').text($(this).parent().hasClass('active') ? '>' : '<');
   });
   
   // Function for school of glimmers
