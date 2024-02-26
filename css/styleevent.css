@@ -138,7 +138,8 @@ h3{
 
 .accordion-content {
 
-  padding:50px;
+  padding: 5vh;
+  padding-bottom: 5vh;
   display: none;
   color: #8300fe; 
 }
