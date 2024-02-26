@@ -7,7 +7,6 @@
 }
 
 
-
 @font-face {
 	font-family: 'lunch';
 	src: url('../fonts/lunchtype24-regular-expanded-webfont.woff2') format('woff');
@@ -79,14 +78,6 @@ header {
 
 
 
-
-
-.accordion-content{
-  margin: 2vh;
-  color: #1e00fe;; 
-
-
-}
 h3{
   font-size: 20vh;
   bottom: 0;
@@ -139,11 +130,11 @@ h3{
 
 .accordion-content {
 
+  margin: 2vh;
   padding: 5vh;
   padding-bottom: 5vh;
   display: none;
   font-size: 1em;
-
   color:  #1e00fe;
 }
 
