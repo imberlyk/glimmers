@@ -60,27 +60,12 @@ header {
   font-family: 'Wagon';/* Distribute menu items across the header */
 }
 
-
-.menu-itema {
-
-  text-decoration: none;
-  font-family: 'Wagon';
-  font-size:4vh;
-  color: #fea100;
-  background-color: #1e00fe;
-  border: 1px solid  #1e00fe;
-  padding-top: 3vh;
-  padding-bottom: 3vh;
-  flex: 1; /* Allow menu items to expand equally */
-  text-align: center; /* Center the text */
-
-}
 .menu-item {
   text-decoration: none;
   font-family: 'Wagon';
   font-size:4vh;
   color: #1e00fe;
-  border: 1px solid  #1e00fe;
+  border: 1px solid  #1e00fe;;
   padding-top: 3vh;
   padding-bottom: 3vh;
   flex: 1; /* Allow menu items to expand equally */
