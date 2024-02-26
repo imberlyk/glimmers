@@ -58,8 +58,8 @@ header {
 .menu-item {
   text-decoration: none;
   font-family: 'Wagon';
-  font-size: 3vh;
-  color: black;
+  font-size: 4.5vh;
+  color: #8300fe;
   border: 1px solid #8300fe;
   padding-top: 3vh;
   padding-bottom: 3vh;
@@ -106,7 +106,7 @@ h3{
 
 
 .accordion {
-  border: 1px solid #000;
+  border: 1px solid#8300fe;
 }
 
 .accordion-title {
