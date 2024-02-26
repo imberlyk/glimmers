@@ -89,7 +89,8 @@ footer{
 
 h3{
   font-size: 20vh;
-  bottom: 0;
+ position: absolute;
+  bottom: 3vh;
   font-family: 'Wagon';
   line-height: 20vh;
 }
