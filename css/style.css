@@ -97,19 +97,24 @@ h3{
 }
 
 
+
+
 #logo1{
   font-family:Arial, Helvetica, sans-serif;
-  font-size: 20vh;
-  padding-left: 5vh;
+  font-weight: lighter;
+  font-size: 15em;
+  padding-left: 7vw;
+  bottom: 4vh;
   color:#8300fe;
-
-
 }
+
 
 
 .accordion {
-  border: 1px solid  #1e00fe;;
+  border: 1px solid  #1e00fe;
 }
+
+
 
 .accordion-title {
   display: flex;
