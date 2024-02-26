@@ -87,6 +87,13 @@ bottom: 0;
   color: #8300fe; 
 }
 
+
+.accordion-content{
+  margin: 2vh;
+  color: #8300fe; 
+
+
+}
 h3{
   font-size: 20vh;
   bottom: 0;
