@@ -78,13 +78,6 @@ header {
 }
 
 
-footer{
-
-display: inline-flex;
-width; 100vh;
-bottom: 0;
-
-}
 
 
 
@@ -148,7 +141,24 @@ h3{
   padding: 5vh;
   padding-bottom: 5vh;
   display: none;
-  color:  #1e00fe;; 
+  color:  #1e00fe;
 }
 
 
+-----------------------------------
+
+footer {
+
+  color: #1e00fe;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer a {
+  color:#1e00fe;
+  text-decoration: none;
+}
+.flex-section {
+  flex: 1;
+}
