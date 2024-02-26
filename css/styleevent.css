@@ -82,8 +82,9 @@ bottom: 0;
 }
 
 .title, .Date, .accordion-sign{
-  font-family: Wagon;
-  font-size: 5vh;
+  font-family: 'Wagon';
+  font-size: 6vh;
+  color: #8300fe; 
 }
 
 h3{
