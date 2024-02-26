@@ -1,0 +1,65 @@
+/* Reset CSS */
+
+html, body {
+  background: #fff;
+  z-index: 1;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, button, input, label {
+  cursor: pointer
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+
+
+
+h1 {
+  position: fixed; /* Fixed positioning */
+  bottom: 20px; /* 20 pixels from the bottom */
+  right: 20px; /* 20 pixels from the right */
+  color: #333; /* Text color */
+  font-size: 48px; /* Initial font size */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Drop shadow */
+  transition: font-size 0.5s ease; /* Smooth transition for font size */
+}
+
+h1:hover {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); /* Larger drop shadow on hover */
+  font-size: 24px; /* Font size on hover */
+}
+
+.grow {
+  animation: grow 1s ease-in-out; /* Animation for initial load */
+}
+
+@keyframes grow {
+  0% {
+    font-size: 120px;
+  }
+  100% {
+    font-size: 48px;
+  }
+}
+
+
+@media screen and (max-width:500px){
+
+
+}
