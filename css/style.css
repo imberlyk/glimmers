@@ -80,10 +80,9 @@ header {
 
 
 footer{
-
-display: inline-flex;
-width; 100vh;
-bottom: 0;
+  display: inline-flex;
+  position: absolute;
+  bottom: 0;
 
 }
 
