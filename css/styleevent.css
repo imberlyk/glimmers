@@ -16,9 +16,17 @@
 }
 
 
+html { 
+  background: url(img/back_blau-02.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 
 html, body {
-  background: #fff;
   z-index: 1;
   padding: 0;
   margin: 0;
@@ -59,8 +67,8 @@ header {
   text-decoration: none;
   font-family: 'Wagon';
   font-size:4vh;
-  color: #8300fe;
-  border: 1px solid #8300fe;
+  color: #1e00fe;
+  border: 1px solid  #1e00fe;;
   padding-top: 3vh;
   padding-bottom: 3vh;
   flex: 1; /* Allow menu items to expand equally */
@@ -68,8 +76,8 @@ header {
 }
 
 .menu-item:hover {
-  background-color: #8300fe; /* Hover background color */
-  color: #fe9800;
+  background-color:  #1e00fe;; /* Hover background color */
+  color: #fee000;
 }
 
 
@@ -85,7 +93,7 @@ bottom: 0;
 
 .accordion-content{
   margin: 2vh;
-  color: #8300fe; 
+  color: #1e00fe;; 
 
 
 }
@@ -106,7 +114,7 @@ h3{
 
 
 .accordion {
-  border: 1px solid#8300fe;
+  border: 1px solid #1e00fe;;
 }
 
 .accordion-title {
@@ -121,7 +129,7 @@ h3{
   flex: 1;
   font-family: 'Wagon';
   font-size: 10vh;
-  color: #8300fe; 
+  color:  #1e00fe;; 
 }
 
 .date {
@@ -129,7 +137,7 @@ h3{
   text-align: center;
   font-family: 'Wagon';
   font-size: 10vh;
-  color: #8300fe; 
+  color:  #1e00fe;; 
 }
 
 .accordion-sign {
@@ -141,7 +149,7 @@ h3{
   padding: 5vh;
   padding-bottom: 5vh;
   display: none;
-  color: #8300fe; 
+  color:  #1e00fe;; 
 }
 
 
