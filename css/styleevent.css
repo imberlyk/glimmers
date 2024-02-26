@@ -81,11 +81,6 @@ bottom: 0;
 
 }
 
-.title .Date  .accordion-sign{
-  font-family: 'Wagon';
-  font-size: 6vh;
-  color: #8300fe; 
-}
 
 
 .accordion-content{
@@ -124,11 +119,17 @@ h3{
 
 .title {
   flex: 1;
+  font-family: 'Wagon';
+  font-size: 6vh;
+  color: #8300fe; 
 }
 
 .date {
   flex: 1;
   text-align: center;
+  font-family: 'Wagon';
+  font-size: 6vh;
+  color: #8300fe; 
 }
 
 .accordion-sign {
@@ -137,8 +138,9 @@ h3{
 
 .accordion-content {
 
-  padding: 10px;
+  padding:5 0px;
   display: none;
+  color: #8300fe; 
 }
 
 
