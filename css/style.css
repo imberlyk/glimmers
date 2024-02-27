@@ -80,16 +80,20 @@ header {
 
 footer {
 
-  color:#1e00fe;
+  color:#8300fe;
   padding: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   gap: 8vw; /* Adjust the gap between items */
 }
 footer a {
-  color:#fe9800;
-  text-decoration: none;
+  color:#8300fe;
 }
 
 h3{
