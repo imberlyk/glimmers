@@ -97,10 +97,12 @@ footer {
   padding-top: 40px;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 4vw; /* Adjust the gap between items */
+  z-index: 2;
+  gap: 4vw; 
 }
 footer a {
   color:#8300fe;
+  z-index: 2;
 }
 
 h3{
@@ -188,7 +190,8 @@ h2{
 .pulslogo {
   position: fixed;
   bottom: 3vh;
-  left: 3vh; /* Assuming you meant 3vh from the bottom and left
+  left: 3vh;
+  z-index: 4; /* Assuming you meant 3vh from the bottom and left
 }
 
 .pulsating-blur {
@@ -216,4 +219,5 @@ h2{
 .hyperlink {
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit text color */
+  z-index: 4;
 }

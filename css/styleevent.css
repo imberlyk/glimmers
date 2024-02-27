@@ -159,8 +159,10 @@ padding-top: 40px;
 justify-content: flex-end;
 align-items: flex-end;
 gap: 4vw; 
+z-index: 2;
 }
 
 footer a {
 color:#1e00fe;
+z-index: 2;
 }
