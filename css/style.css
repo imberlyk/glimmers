@@ -51,6 +51,10 @@ header {
   padding: 0px 0px; /* Add padding to the header */
 }
 
+.custom-cursor {
+    cursor: url('../img/cursor.png'), auto;
+}
+
 
 .top-menu {
   display: flex;
@@ -87,6 +91,8 @@ footer {
   right: 0;
   left: auto;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.5em;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
