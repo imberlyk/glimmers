@@ -97,12 +97,13 @@ h3{
 
 
 h2{
-  font-size: 3em;
+  font-size: 10vh;
   position: absolute;
- top: 1vh;
+  top: 10vh;
   font-family: 'Wagon';
-  line-height: 15vh;
-  color:#8300fe;
+  line-height: 10vh;
+  color: #8300fe;
+  padding: 5vh;
 }
 #logo1{
   font-family: Arial, Helvetica, sans-serif;
