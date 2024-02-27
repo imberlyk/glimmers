@@ -81,9 +81,11 @@ header {
 footer{
   display: inline-flex;
   position: absolute;
+  align-content: flex-end;
   bottom: 0;
   font-family: 'Wagon';
   color: #8300fe;
+  font-size: 10vw;
 }
 
 h3{
