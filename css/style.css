@@ -85,7 +85,7 @@ header {
 footer {
 
   color:#8300fe;
-  padding: 20px;
+  padding: 13px;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -187,7 +187,7 @@ h2{
 .pulslogo {
   position: fixed;
   bottom: 3vh;
-  left: 3vh; /* Assuming you meant 3vh from the bottom and left */
+  left: 3vh; /* Assuming you meant 3vh from the bottom and left
 }
 
 .pulsating-blur {
@@ -208,6 +208,8 @@ h2{
       filter: blur(10px);
   }
 }
+
+*/
 
 /* Style for the hyperlink */
 .hyperlink {
