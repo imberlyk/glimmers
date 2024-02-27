@@ -96,7 +96,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  gap: 8vw; /* Adjust the gap between items */
+  gap: 4vw; /* Adjust the gap between items */
 }
 footer a {
   color:#8300fe;
