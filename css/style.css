@@ -80,25 +80,17 @@ header {
 
 footer {
 
-  color: #3a00f8;
+  color:#1e00fe;
   padding: 20px;
   display: flex;
-  font-family: 'Wagon';
-  font-size: 1vh;
   justify-content: flex-end;
   align-items: flex-end;
+  gap: 8vw; /* Adjust the gap between items */
 }
 footer a {
-  color: #2600ff;
+  color:#fe9800;
   text-decoration: none;
-  margin-left: 8vw;
 }
-.flex-section {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-}
-
 
 h3{
   font-size: 25vh;
