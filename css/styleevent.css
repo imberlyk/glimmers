@@ -15,8 +15,6 @@
 }
 
 
-
-
 html, body {
   background: url(../img/back_blau-02.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -144,23 +142,23 @@ h3{
 
 
 -----------------------------------
-
-footer {
-
-  color:#8300fe;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.5em;
-  left: auto;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  gap: 4vw; /* Adjust the gap between items */
+footer{
+color: #1e00fe;
+padding: 20px;
+position: fixed;
+bottom: 0;
+right: 0;
+left: auto;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9em;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 4vw; /* Adjust the gap between items */
 }
+
+
 footer a {
-  color:#8300fe;
+color:#1e00fe;
 }
