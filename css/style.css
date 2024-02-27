@@ -173,7 +173,44 @@ h2{
   position: fixed;
   top: 50%;
   margin-top: 5vh;
+  margin-bottom: 5vh;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+
+
+
+/* Logo */
+
+
+.pulslogo {
+  position: fixed;
+  bottom: 3vh;
+  left: 3vh; /* Assuming you meant 3vh from the bottom and left */
+}
+
+.pulsating-blur {
+  width: 100px; 
+  height: auto;
+  filter: blur(5px);
+}
+
+.hyperlink:hover .pulsating-blur {
+  animation: pulse 2s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+      filter: blur(5px);
+  }
+  100% {
+      filter: blur(10px);
+  }
+}
+
+/* Style for the hyperlink */
+.hyperlink {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit text color */
+}
