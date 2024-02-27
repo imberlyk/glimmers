@@ -141,7 +141,9 @@ h3{
 }
 
 
------------------------------------
+/* Footer */
+
+
 footer{
 color: #1e00fe;
 padding: 20px;
@@ -155,9 +157,8 @@ font-size: 0.9em;
 display: flex;
 justify-content: flex-end;
 align-items: flex-end;
-gap: 4vw; /* Adjust the gap between items */
+gap: 4vw; 
 }
-
 
 footer a {
 color:#1e00fe;
