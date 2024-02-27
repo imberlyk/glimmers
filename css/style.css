@@ -78,15 +78,27 @@ header {
 
 /* Bottom */
 
-footer{
-  display: inline-flex;
-  position: absolute;
-  align-content: flex-end;
-  bottom: 0;
+footer {
+
+  color: #3a00f8;
+  padding: 20px;
+  display: flex;
   font-family: 'Wagon';
-  color: #8300fe;
-  font-size: 10vw;
+  font-size: 3vh;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
+footer a {
+  color: #2600ff;
+  text-decoration: none;
+  margin-left: 8vw;
+}
+.flex-section {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 h3{
   font-size: 25vh;
