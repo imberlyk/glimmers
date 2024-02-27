@@ -135,6 +135,7 @@ h3{
   margin-left: 6vw;
   margin-right: 10vw;
   padding-bottom: 5vh;
+  line-height: 20px;
   display: none;
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
@@ -146,16 +147,21 @@ h3{
 
 footer {
 
-  color: #1e00fe;
+  color: #3a00f8;
   padding: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  font-family: 'Wagon';
+  font-size: 3vh;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 footer a {
-  color:#1e00fe;
+  color: #2600ff;
   text-decoration: none;
+  margin-left: 8vw;
 }
 .flex-section {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
 }
