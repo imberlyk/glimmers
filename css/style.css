@@ -129,7 +129,7 @@ h2{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 8vw;
-  padding-left: 31vw;
+  padding-left: 27vw;
   line-height: 30px;
   bottom: 4vh;
   color: #8300fe;
@@ -192,8 +192,7 @@ h2{
   position: fixed;
   bottom: 3vh;
   left: 3vh;
-  z-index: 4; /* Assuming you meant 3vh from the bottom and left
-}
+  z-index: 4; 
 
 .pulsating-blur {
   width: 100px; 
@@ -214,7 +213,7 @@ h2{
   }
 }
 
-*/
+
 
 /* Style for the hyperlink */
 .hyperlink {
