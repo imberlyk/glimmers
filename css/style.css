@@ -110,7 +110,8 @@ h3{
   position: absolute;
   bottom: 3vh;
   font-family: 'Wagon';
-  line-height: 10vh;
+  line-height: 15vh;
+  padding-left: 5vw;
   color:#8300fe;
 }
 
