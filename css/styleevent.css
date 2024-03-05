@@ -91,6 +91,16 @@ h3{
 
 }
 
+/*  Zine */
+#zine{
+
+  position: fixed;
+  top: 50%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .accordion {
   border: 1px solid #1e00fe;;
