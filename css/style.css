@@ -125,6 +125,8 @@ h2{
   color: #8300fe;
   padding: 5vh;
 }
+
+
 #logo1{
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
@@ -135,7 +137,12 @@ h2{
   color: #8300fe;
 }
 
-#logo1:hover {
+
+#logo{
+  padding-left: 5vh;
+}
+
+#logo:hover {
   animation: pulse 1s infinite alternate;
   color: #8300fe; /* Ensures the color remains the same on hover */
 }
@@ -204,7 +211,8 @@ h2{
   position: fixed;
   bottom: 3vh;
   left: 3vh;
-  z-index: 4; 
+  z-index: 4; /* Assuming you meant 3vh from the bottom and left
+}
 
 .pulsating-blur {
   width: 100px; 
@@ -225,7 +233,7 @@ h2{
   }
 }
 
-
+*/
 
 /* Style for the hyperlink */
 .hyperlink {
