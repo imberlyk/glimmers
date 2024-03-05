@@ -137,6 +137,10 @@ h2{
   color: #8300fe;
 }
 
+#logo{
+  padding-left: 5vw;
+}
+
 #logo:hover {
   box-shadow: 0 0 10px rgba(131, 0, 254, 0.7); /* Shadow on hover */
 }
