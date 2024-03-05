@@ -142,52 +142,18 @@ h2{
   padding-left: 5vh;
 }
 
-#logo:hover {
-  animation: pulse 1s infinite alternate;
-  color: #8300fe; /* Ensures the color remains the same on hover */
-}
-
 @keyframes pulse {
   0% {
       transform: scale(1);
+      color: #8300fe; /* Initial color */
   }
   100% {
       transform: scale(1.1);
+      color: #8300fe; /* Final color */
   }
 }
 
 /* accordion  */
-
-.accordion {
-  border: 1px solid  #1e00fe;
-}
-
-.accordion-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.title {
-  flex: 1;
-}
-
-.date {
-  flex: 1;
-  text-align: center;
-}
-
-.accordion-sign {
-  margin-left: 10px;
-}
-
-.accordion-content {
-
-  padding: 20px;
-  display: none;
-}
 
 
 /*  Zine */
