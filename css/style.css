@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: 'Wagon';
-	src: url('../fonts/Wagon-ExtraLight.otf') format('otf');
+	src: url('../fonts/Wagon-ExtraLight.otf') format('opentype');
   font-style: normal;
 }
 
@@ -110,7 +110,7 @@ h3{
   position: absolute;
   bottom: 3vh;
   font-family: 'Wagon';
-  line-height: 20vh;
+  line-height: 10vh;
   color:#8300fe;
 }
 

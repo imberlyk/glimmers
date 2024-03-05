@@ -1,0 +1,168 @@
+
+@font-face {
+	font-family: 'Wagon';
+	src: url('../fonts/Wagon-ExtraLight.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'lunch';
+	src: url('../fonts/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html, body {
+  background: url(../img/back_orange.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a, button, input, label {
+  cursor: pointer;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+header {
+  padding: 0px 0px; /* Add padding to the header */
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between; 
+  font-family: 'Wagon';/* Distribute menu items across the header */
+}
+
+.menu-item {
+  text-decoration: none;
+  font-family: 'Wagon';
+  font-size:4vh;
+  color: #fe4400;
+  border: 1px solid  #fe4400;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  flex: 1; /* Allow menu items to expand equally */
+  text-align: center; /* Center the text */
+}
+
+.menu-item:hover {
+  background-color:  #fe4400; /* Hover background color */
+  color: #fee000;
+}
+
+
+
+h3{
+  font-size: 20vh;
+  bottom: 0;
+  font-family: 'Wagon';
+  line-height: 20vh;
+}
+
+
+#logo1{
+  font-family: 'lunch';
+  font-size: 10vh;
+
+
+}
+
+
+.accordion {
+  border: 1px solid #fe4400;
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title {
+  flex: 1;
+  font-family: 'Wagon';
+  font-size: 10vh;
+  color:  #fe4400; 
+}
+
+.date {
+  flex: 1;
+  text-align: center;
+  font-family: 'Wagon';
+  font-size: 10vh;
+  color:  #1e00fe;; 
+}
+
+.accordion-sign {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 4vh;
+  color:  #fe4400;
+}
+
+.accordion-content {
+
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  margin-left: 6vw;
+  margin-right: 10vw;
+  padding-bottom: 5vh;
+  line-height: 20px;
+  display: none;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color:  #fe4400;
+}
+
+
+/* Footer */
+
+
+footer{
+color: #fe4400;
+padding: 20px;
+position: fixed;
+bottom: 0;
+right: 0;
+left: auto;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9em;
+display: flex;
+padding-top: 40px;
+justify-content: flex-end;
+align-items: flex-end;
+gap: 4vw; 
+z-index: 2;
+}
+
+footer a {
+color: #fe4400;
+z-index: 2;
+}
