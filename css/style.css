@@ -135,7 +135,19 @@ h2{
   color: #8300fe;
 }
 
+#logo1:hover {
+  animation: pulse 1s infinite alternate;
+  color: #8300fe; /* Ensures the color remains the same on hover */
+}
 
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.1);
+  }
+}
 
 /* accordion  */
 
