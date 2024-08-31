@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Wagon';
+  src: url('../font/Wagon-Regular.woff2') format('woff2');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'lunch';
+  src: url('../font/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
+  font-style: normal;
+}
+
+html, body {
+  background: url(../img/back_blau.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a, button, input, label {
+  cursor: pointer;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 0px 0px; /* Add padding to the header */
+}
+
+.custom-cursor {
+  cursor: url('../img/cursor.png'), auto;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between; 
+  font-family: 'Wagon'; /* Distribute menu items across the header */
+}
+
+.menu-item {
+  text-decoration: none;
+  font-family: 'Wagon';
+  font-size: 4vh;
+  color: #129700;
+  border: 1px solid #129700;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  flex: 1; /* Allow menu items to expand equally */
+  text-align: center; /* Center the text */
+}
+
+.menu-item:hover {
+  background-color: #129700; /* Hover background color */
+  color: #fe9800;
+}
+
+footer {
+  color:  #129700;
+  padding: 13px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  display: flex;
+  padding-top: 60px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 2;
+  gap: 4vw;
+}
+
+footer a {
+  color: #129700;
+  z-index: 2;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  margin-top: 10vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.content-container h2,
+.content-container h1 {
+  width: 100%;
+  font-family: 'Wagon';
+  font-weight: 100;
+  color: #129700 ;
+  background-color: #5fd6e3;;
+  border: outset; 
+  border-radius: 10%;
+  border-bottom: #129700;
+  padding: 6vh;
+
+  font-size: 1.6em;
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 2s forwards; /* Fade-in animation */
+}
+
+.content-container h2 {
+  animation-delay: 0.5s; /* Delay for h2 */
+}
+
+.content-container h1 {
+  animation-delay: 1s; /* Delay for h1 */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Fully visible */
+  }
+}
+
+.content-container p {
+  font-size: 1.5em;
+  font-family: 'lunch';
+  line-height: 26px;
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  color: #129700
+  
+}

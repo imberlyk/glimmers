@@ -1,22 +1,21 @@
 
 @font-face {
 	font-family: 'Wagon';
-	src: url('../fonts/Wagon-ExtraLight.otf') format('opentype');
-	font-weight: normal;
-	font-style: normal;
+	src: url('../font/Wagon-Regular.woff2') format('woff2');
+  font-style: normal;
 }
+
 
 
 @font-face {
 	font-family: 'lunch';
-	src: url('../fonts/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
-	font-weight: normal;
+	src: url('../font/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
 	font-style: normal;
 }
 
 
 html, body {
-  background: url(../img/back_orange.png) no-repeat center center fixed; 
+  background: url(../img/back_pink.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -45,8 +44,6 @@ ul, li {
   padding: 0;
 }
 
-
-
 header {
   padding: 0px 0px; /* Add padding to the header */
 }
@@ -54,15 +51,15 @@ header {
 .top-menu {
   display: flex;
   justify-content: space-between; 
-  font-family: 'Wagon';/* Distribute menu items across the header */
+  font-family: 'Wagon'; /* Distribute menu items across the header */
 }
 
 .menu-item {
   text-decoration: none;
   font-family: 'Wagon';
-  font-size:4vh;
-  color: #fe4400;
-  border: 1px solid  #fe4400;
+  font-size: 4vh;
+  color:#b50aac;
+  border: 1px solid#b50aac;
   padding-top: 3vh;
   padding-bottom: 3vh;
   flex: 1; /* Allow menu items to expand equally */
@@ -70,71 +67,113 @@ header {
 }
 
 .menu-item:hover {
-  background-color:  #fe4400; /* Hover background color */
+  background-color: #b50aac; /* Hover background color */
   color: #fee000;
 }
 
-
-
-h3{
+h3 {
   font-size: 20vh;
   bottom: 0;
   font-family: 'Wagon';
   line-height: 20vh;
 }
 
-
-#logo1{
+#logo1 {
   font-family: 'lunch';
   font-size: 10vh;
-
-
 }
 
-#zine{
+/* Accordion */
+.accordion {
+  border: 1px solid #b50aac;
+  margin-bottom: 10px; /* Add margin to separate accordion items */
+}
 
-  position: fixed;
-  top: 50%;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title {
+  flex: 1;
+  font-family: 'Wagon';
+  font-size: 8vh;
+  color: #b50aac; 
+}
+
+.accordion-sign {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 4vh;
+  color#b50aac;
+}
+
+.accordion-content {
+  display: none;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#b50aac;
+}
+
+.accordion-content.show {
+  display: flex !important;  /* Override user agent stylesheet */
+  justify-content: space-between; /* Ensure space is distributed between items */
+  align-items: flex-start; /* Align items at the top */
+  flex-wrap: nowrap; /* Prevent wrapping */
+}
+
+.pdf-container {
+  flex: 0 0 48%; /* Ensure it takes up almost half the width */
+  max-width: 48%; /* Ensure it does not exceed half the width */
+}
+
+.pdf-container embed {
+  width: 100%;
+  height: 600px;
+}
+
+.text-container {
+  flex: 0 0 48%; /* Ensure it takes up almost half the width */
+  max-width: 48%; /* Ensure it does not exceed half the width */
+  padding-left: 20px;
+}
+
+.text-container h1 {
+  font-family: 'Wagon';
+  font-size: 5vh;
+  color: #b50aac;
+  margin-bottom: 1vh;
+}
+
+.text-container p {
+  font-size: 1em;
+  line-height: 1.5em;
+  color:#b50aac;
 }
 
 /* Footer */
-
-
-footer{
-color: #fe4400;
-padding: 20px;
-position: fixed;
-bottom: 0;
-right: 0;
-left: auto;
-width: 100%;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 0.9em;
-display: flex;
-padding-top: 60px;
-justify-content: flex-end;
-align-items: flex-end;
-gap: 4vw; 
-z-index: 2;
+footer {
+  color: #b50aac;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  display: flex;
+  padding-top: 60px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 4vw; 
+  z-index: 2;
 }
 
 footer a {
-color: #fe4400;
-z-index: 2;
-}
-
-
-/*  Zine */
-#zine{
-
-  position: fixed;
-  top: 50%;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  color:#b50aac;
+  z-index: 2;
 }

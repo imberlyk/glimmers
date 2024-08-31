@@ -1,7 +1,7 @@
 
 @font-face {
 	font-family: 'Wagon';
-	src: url('../fonts/Wagon-ExtraLight.otf') format('opentype');
+	src: url('../font/Wagon-Regular.woff2') format('woff2');
   font-style: normal;
 }
 
@@ -9,7 +9,7 @@
 
 @font-face {
 	font-family: 'lunch';
-	src: url('../fonts/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
+	src: url('../font/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
 	font-style: normal;
 }
 
