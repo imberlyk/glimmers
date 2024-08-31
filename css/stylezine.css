@@ -79,6 +79,19 @@ header {
   color: #fee000;
 }
 
+.menu-item-active{
+  color:  #fee000;
+  background-color:  #b50aac;
+  border: 1px solid #b50aac;
+  text-decoration: none;
+  font-family: 'Wagon';
+  font-size: 4vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  flex: 1; 
+  text-align: center;
+}
+
 h3 {
   font-size: 20vh;
   bottom: 0;
