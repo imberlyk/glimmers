@@ -10,6 +10,14 @@
   font-style: normal;
 }
 
+
+@font-face {
+  font-family: 'lunchmed';
+  src: url('../font/lunchtype24-medium-webfont.woff2') format('woff2');
+  font-style: normal;
+}
+
+
 html, body {
   background: url(../img/back_blau.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -67,9 +75,22 @@ header {
   text-align: center; /* Center the text */
 }
 
+.menu-item-active{
+  color:#129700;
+  background-color: #ed965c;
+  border: 1px solid #129700;
+  text-decoration: none;
+  font-family: 'Wagon';
+  font-size: 4vh;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  flex: 1; /* Allow menu items to expand equally */
+  text-align: center; /* Center the text */
+}
+
 .menu-item:hover {
   background-color: #129700; /* Hover background color */
-  color: #fe9800;
+  color: rgb(237, 150, 92);
 }
 
 footer {
@@ -97,7 +118,7 @@ footer a {
 
 .content-container {
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   align-items: center;
   padding: 20px;
   margin-top: 10vh;
@@ -108,15 +129,10 @@ footer a {
 .content-container h2,
 .content-container h1 {
   width: 100%;
-  font-family: 'Wagon';
+  font-family: 'Lunch';
   font-weight: 100;
   color: #129700 ;
-  background-color: #5fd6e3;;
-  border: outset; 
-  border-radius: 10%;
-  border-bottom: #129700;
   padding: 6vh;
-
   font-size: 1.6em;
   opacity: 0; /* Initially hidden */
   animation: fadeIn 2s forwards; /* Fade-in animation */
