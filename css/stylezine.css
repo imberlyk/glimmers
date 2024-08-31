@@ -53,13 +53,13 @@ ul, li {
 }
 
 header {
-  padding: 0px 0px; /* Add padding to the header */
+  padding: 0px 0px; 
 }
 
 .top-menu {
   display: flex;
   justify-content: space-between; 
-  font-family: 'Wagon'; /* Distribute menu items across the header */
+  font-family: 'Wagon'; 
 }
 
 .menu-item {
@@ -70,12 +70,12 @@ header {
   border: 1px solid#b50aac;
   padding-top: 3vh;
   padding-bottom: 3vh;
-  flex: 1; /* Allow menu items to expand equally */
-  text-align: center; /* Center the text */
+  flex: 1; 
+  text-align: center;
 }
 
 .menu-item:hover {
-  background-color: #b50aac; /* Hover background color */
+  background-color: #b50aac; 
   color: #fee000;
 }
 
@@ -91,10 +91,9 @@ h3 {
   font-size: 10vh;
 }
 
-/* Accordion */
 .accordion {
   border: 1px solid #b50aac;
-  margin-bottom: 10px; /* Add margin to separate accordion items */
+  margin-bottom: 10px; 
 }
 
 .accordion-title {
@@ -116,7 +115,7 @@ h3 {
   margin-left: 10px;
   margin-right: 10px;
   font-size: 4vh;
-  color#b50aac;
+  color: #b50aac;
 }
 
 .accordion-content {
@@ -127,15 +126,15 @@ h3 {
 }
 
 .accordion-content.show {
-  display: flex !important;  /* Override user agent stylesheet */
-  justify-content: space-between; /* Ensure space is distributed between items */
-  align-items: flex-start; /* Align items at the top */
-  flex-wrap: nowrap; /* Prevent wrapping */
+  display: flex !important; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+  flex-wrap: nowrap; 
 }
 
 .pdf-container {
-  flex: 0 0 48%; /* Ensure it takes up almost half the width */
-  max-width: 48%; /* Ensure it does not exceed half the width */
+  flex: 0 0 48%; 
+  max-width: 48%; 
 }
 
 .pdf-container embed {
@@ -144,8 +143,8 @@ h3 {
 }
 
 .text-container {
-  flex: 0 0 48%; /* Ensure it takes up almost half the width */
-  max-width: 48%; /* Ensure it does not exceed half the width */
+  flex: 0 0 48%; 
+  max-width: 48%; 
   padding-left: 20px;
 }
 

@@ -119,23 +119,35 @@ footer a {
 .content-container {
   display: flex;
   flex-direction:row;
-  align-items: center;
+  align-items: flex-start;
   padding: 20px;
   margin-top: 10vh;
   width: 80%;
   margin: 0 auto;
 }
 
-.content-container h2,
-.content-container h1 {
+.content-container h1
+ {
+  
   width: 100%;
   font-family: 'Lunch';
   font-weight: 100;
   color: #129700 ;
   padding: 6vh;
   font-size: 1.6em;
-  opacity: 0; /* Initially hidden */
-  animation: fadeIn 2s forwards; /* Fade-in animation */
+  opacity: 0; 
+  animation: fadeIn 2s forwards; 
+}
+
+.content-container h2{
+  font-family: 'Wagon';
+  color:  #129700 ;
+  
+  font-weight: 100;
+  margin-top:5vh;
+  font-size: 2em;
+  opacity: 0;
+  animation: fadeIn 2s forwards; 
 }
 
 .content-container h2 {
