@@ -79,11 +79,11 @@ header {
 
 .menu-item:hover {
   background-color:  #1e00fe;
-  color: #fee000;
+  color: #f89c5b;
 }
 
 .menu-item-active{
-  color: #fee000;
+  color: #f89c5b;
   background-color: #1e00fe;
   border: 1px solid #1e00fe;
   text-decoration: none;
