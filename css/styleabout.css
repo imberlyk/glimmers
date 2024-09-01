@@ -134,6 +134,7 @@ footer a {
   font-family: 'Lunch';
   font-weight: 100;
   color: #129700 ;
+  line-height: 20px;
   padding: 2vh;
   padding-top: 20vh;
   font-size: 1em;
@@ -144,8 +145,7 @@ footer a {
 .content-container h2{
   font-family: 'Wagon';
   width: 50%;
-  color:  #129700 ;
-  
+  color:  #129700 ; 
   font-weight: 100;
   margin-top:5vh;
   font-size: 2em;
@@ -182,7 +182,7 @@ footer a {
   margin-top: 10vh;
   width: 80%;
   margin: 0 auto;
-  
+  line-height: 35px; 
 }
 
 

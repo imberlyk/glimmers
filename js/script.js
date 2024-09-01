@@ -160,7 +160,7 @@ $(document).ready(function() {
     return this;
   };
   
-  $("#h3").sparkle({
+  $(".overlay").sparkle({
     size: 25,
   }).sparkle({
     delay: 1000,
