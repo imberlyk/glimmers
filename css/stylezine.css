@@ -167,8 +167,9 @@ h3 {
 .text-container h1 {
   font-family: 'Wagon';
   font-size: 5vh;
+  font-weight: 100;
   color: #b50aac;
-  margin-bottom: 1vh;
+  margin: 1vh;
 }
 
 .text-container p {
