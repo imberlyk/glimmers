@@ -25,3 +25,19 @@ $(document).ready(function() {
     });
   });
 });
+
+(function() {
+  const interval = 1000;
+  const timeout = 120;
+  let idleCounter = 0;
+  window.onload = document.onmousemove = document.onkeypress = function() {
+    idleCounter = 0;
+    document.documentElement.classList.remove('idle');
+  };
+  window.setInterval(function() {
+    if (++idleCounter >= timeout) {
+      document.documentElement.classList.add('idle');
+      idleCounter = 0;
+    }
+  }, interval);
+})();

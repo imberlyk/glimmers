@@ -133,9 +133,12 @@ h3 {
 
 .accordion-content {
   display: none;
-  padding: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  color:#b50aac;
+  font-size: 1.5em;
+  font-family: 'lunch';
+  line-height: 35px;
+  margin-top:5vh;
+  width: 80%;
+  padding: 10px;
 }
 
 .accordion-content.show {

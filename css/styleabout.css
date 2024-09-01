@@ -129,18 +129,20 @@ footer a {
 .content-container h1
  {
   
-  width: 100%;
+  width: 50%;
   font-family: 'Lunch';
   font-weight: 100;
   color: #129700 ;
-  padding: 6vh;
-  font-size: 1.6em;
+  padding: 2vh;
+  padding-top: 20vh;
+  font-size: 1em;
   opacity: 0; 
   animation: fadeIn 2s forwards; 
 }
 
 .content-container h2{
   font-family: 'Wagon';
+  width: 50%;
   color:  #129700 ;
   
   font-weight: 100;
@@ -164,13 +166,60 @@ footer a {
   }
 }
 
-.content-container p {
+.about {
   font-size: 1.5em;
   font-family: 'lunch';
   line-height: 26px;
   width: 80%;
   margin-top: 20px;
   padding: 10px;
-  color: #129700
+  color: #129700;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 10vh;
+  width: 80%;
+  margin: 0 auto;
   
+}
+
+
+#overlay {
+  background-color:#0bec61;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  position:fixed;
+  right:0;
+  top:0;
+  transition:opacity .2s ease-in-out;
+  z-index:1;
+}
+
+html.idle #overlay {
+  opacity:.5;
+  transition:opacity 2s ease-in-out;
+}
+
+h3{
+  font-size: 25vh;
+  position: absolute;
+  bottom: 3vh;
+  font-family: 'Wagon';
+  font-weight: 100;
+  line-height: 15vh;
+  padding-left: 5vw;
+  color:#d4b5f0;
+}
+
+#logo1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 8vw;
+  padding-left: 27vw;
+  line-height: 30px;
+  bottom: 4vh;
+  color: #d4b5f0;
 }
