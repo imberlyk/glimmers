@@ -221,3 +221,67 @@ img{
 }
 
 
+
+
+/* overlay */
+
+h3{
+  font-size: 25vh;
+  position: absolute;
+  bottom: 3vh;
+  font-family: 'Wagon';
+  font-weight: 100;
+  line-height: 15vh;
+  padding-left: 5vw;
+  color: #ffffff;
+}
+
+
+#logo1{
+  font-family:'lunch';
+  font-weight: lighter;
+  font-size: 7vw;
+  padding-left: 23vw;
+  line-height: 30px;
+  bottom: 4vh;
+  color: #ffffff;
+}
+
+
+
+
+#logo {
+  padding-left: 9vw;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s forwards, shimmerEffect 2s 1s infinite;
+
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Shimmer effect */
+@keyframes shimmerEffect {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 235, 10, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(233, 228, 141, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+}

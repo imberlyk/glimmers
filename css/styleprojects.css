@@ -6,7 +6,6 @@
 }
 
 
-
 @font-face {
 	font-family: 'lunch';
 	src: url('../font/lunchtype24-regular-expanded-webfont.woff2') format('woff2');
@@ -88,6 +87,98 @@ header {
 }
 
 
+
+/* accordion  */
+
+
+
+
+
+p{
+  margin: 10vw;
+  font-size: 1em;
+  font-family: 'lunch';
+  line-height: 35px;
+  margin-top:5vh;
+  width: 80%;
+  padding: 10px;
+  color:#8300fe;
+}
+
+
+.accordion {
+  border: 1px solid #8300fe;
+}
+
+.accordion-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.title {
+  flex: 1;
+  font-family: 'Wagon';
+  font-size: 5vh;
+  color: #8300fe; 
+}
+
+.date {
+  flex: 1;
+  text-align: center;
+  font-family: 'Wagon';
+  font-size: 5vh;
+  color: #8300fe; 
+}
+
+.location {
+  flex: 1;
+  text-align: center;
+  font-family: 'Wagon';
+  font-size: 5vh;
+  color:  #8300fe; 
+}
+
+
+.accordion-sign {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 4vh;
+  color:  #8300fe;
+}
+
+.accordion-content {
+
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-bottom: 5vh;
+  display: none;
+  color:  #8300fe;
+  font-size: 1.5em;
+  font-family: 'lunch';
+  line-height: 30px;
+
+
+}
+
+.mitwirkende {
+  display: block;
+  font-size: 1.5em;
+  font-family: 'lunch';
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+ line-height: 5vh;
+
+
+}
+
+
 /* Bottom */
 
 footer {
@@ -113,153 +204,68 @@ footer a {
   z-index: 2;
 }
 
+
+
+
+/* overlay */
+
 h3{
   font-size: 25vh;
   position: absolute;
   bottom: 3vh;
   font-family: 'Wagon';
+  font-weight: 100;
   line-height: 15vh;
   padding-left: 5vw;
-  color:#8300fe;
-}
-
-
-h2{
-  font-size: 10vh;
-  position: absolute;
-  top: 10vh;
-  font-family: 'Wagon';
-  line-height: 10vh;
-  color: #8300fe;
-  padding: 5vh;
+  color: #ffffff;
 }
 
 
 #logo1{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'lunch';
   font-weight: lighter;
-  font-size: 8vw;
-  padding-left: 27vw;
+  font-size: 7vw;
+  padding-left: 23vw;
   line-height: 30px;
   bottom: 4vh;
-  color: #8300fe;
+  color: #ffffff;
 }
 
-#logo{
-  padding-left: 5vw;
+
+
+
+#logo {
+  padding-left: 9vw;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s forwards, shimmerEffect 2s 1s infinite;
+
+
 }
 
-#logo:hover {
-  box-shadow: 0 0 10px rgba(131, 0, 254, 0.7); /* Shadow on hover */
-}
-
-@keyframes pulse {
+@keyframes fadeIn {
   0% {
-      transform: scale(1);
-      color: #8300fe; /* Initial color */
+    opacity: 0;
   }
   100% {
-      transform: scale(1.1);
-      color: #8300fe; /* Final color */
+    opacity: 1;
   }
 }
 
-/* accordion  */
-
-
-/*  Zine */
-#zine{
-
-  position: fixed;
-  top: 50%;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-
-p{
-  margin: 10vw;
-  font-size: 1.5em;
-  font-family: 'lunch';
-  line-height: 35px;
-  margin-top:5vh;
-  width: 80%;
-  padding: 10px;
-  color:#8300fe;
-}
-
-
-.accordion {
-  border: 1px solid #1e00fe;
-}
-
-.accordion-title {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.title {
-  flex: 1;
-  font-family: 'Wagon';
-  font-size: 5vh;
-  color:  #1e00fe;; 
-}
-
-.date {
-  flex: 1;
-  text-align: center;
-  font-family: 'Wagon';
-  font-size: 5vh;
-  color:  #1e00fe;; 
-}
-
-.location {
-  flex: 1;
-  text-align: center;
-  font-family: 'Wagon';
-  font-size: 5vh;
-  color:  #1e00fe;; 
-}
-
-
-.accordion-sign {
-  margin-left: 10px;
-  margin-right: 10px;
-  font-size: 4vh;
-  color:  #1e00fe;
-}
-
-.accordion-content {
-
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-  margin-left: 15vw;
-  margin-right: 15vw;
-  padding-bottom: 5vh;
-  display: none;
-  color:  #1e00fe;
-  font-size: 1.5em;
-  font-family: 'lunch';
-  line-height: 30px;
-
-
-}
-
-.mitwirkende {
-  display: block;
-  font-size: 2em;
-  font-family: 'lunch';
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
- line-height: 5vh;
-
-
+/* Shimmer effect */
+@keyframes shimmerEffect {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 235, 10, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(233, 228, 141, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
 }

@@ -115,7 +115,16 @@ footer a {
   z-index: 2;
 }
 
-
+h3{
+  font-size: 25vh;
+  position: absolute;
+  bottom: 3vh;
+  font-weight:100;
+  font-family: 'Wagon';
+  line-height: 15vh;
+  padding-left: 5vw;
+  color: #1349fb;
+}
 
 
 h2{
@@ -130,87 +139,51 @@ h2{
 }
 
 
-
-
-#logo {
-  padding-left: 9vw;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  position: relative;
-  color: #1349fb;
-  font-size: 48px;
-  z-index: 2;
-  animation: shimmer 2s infinite;
-}
-
-@keyframes shimmer {
-  0%, 100% {
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
-  }
-  50% {
-    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
-  }
-}
-
-#logo::before, #logo::after {
-  content: '';
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 70%);
-  border-radius: 50%;
-  pointer-events: none;
-  z-index: 1;
-}
-
-#logo::before {
-  top: -20px;
-  left: -30px;
-  animation: sparkle 3s infinite ease-in-out;
-}
-
-#logo::after {
-  bottom: -20px;
-  right: -30px;
-  animation: sparkle 3s 1.5s infinite ease-in-out;
-}
-
-@keyframes sparkle {
-  0%, 100% {
-    transform: scale(0.5);
-    opacity: 0;
-  }
-  50% {
-    transform: scale(1.5);
-    opacity: 1;
-  }
-}
-
-h3 {
-  font-size: 25vh;
-  position: absolute;
-  bottom: 3vh;
-  font-weight: 100;
-  font-family: 'Wagon';
-  line-height: 15vh;
-  padding-left: 5vw;
-  color: #1349fb;
-  z-index: 3;
-}
-
-#logo1 {
-  font-family: 'lunch';
+#logo1{
+  font-family:'lunch';
   font-weight: lighter;
   font-size: 7vw;
   padding-left: 23vw;
   line-height: 30px;
   bottom: 4vh;
   color: #1349fb;
-  z-index: 3;
+}
+
+
+
+
+#logo {
+  padding-left: 9vw;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s forwards, shimmerEffect 2s 1s infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Shimmer effect */
+@keyframes shimmerEffect {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 235, 10, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(233, 228, 141, 0.6);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
 }
 
 

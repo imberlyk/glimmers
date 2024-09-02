@@ -212,60 +212,103 @@ h3{
   font-weight: 100;
   line-height: 15vh;
   padding-left: 5vw;
-  color:#d4b5f0;
+  color: #ffffff;
 }
+
 
 #logo1{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:'lunch';
   font-weight: lighter;
-  font-size: 8vw;
-  padding-left: 27vw;
+  font-size: 7vw;
+  padding-left: 23vw;
   line-height: 30px;
   bottom: 4vh;
-  color: #d4b5f0;
+  color: #ffffff;
 }
 
-@-moz-keyframes my-sparkle {
-  0%   {
-    opacity: 0;
-    -moz-transform: rotate(0deg) scale(0);
-  }
-  50%  {
-    opacity: 1;
-    -moz-transform: rotate(360deg) scale(1);
-  }
-  100% {
-    opacity: 0;
-    -moz-transform: rotate(720deg) scale(0);
-  }
+
+
+
+#logo {
+  padding-left: 9vw;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 2s forwards, shimmerEffect 2s 1s infinite;
+
+
 }
 
-@-webkit-keyframes my-sparkle {
-  0%   {
+@keyframes fadeIn {
+  0% {
     opacity: 0;
-    -webkit-transform: rotate(0deg) scale(0);
-  }
-  50%  {
-    opacity: 1;
-    -webkit-transform: rotate(360deg) scale(1);
   }
   100% {
-    opacity: 0;
-    -webkit-transform: rotate(720deg) scale(0);
+    opacity: 1;
   }
 }
 
-@keyframes my-sparkle {
-  0%   {
-    opacity: 0;
-    transform: rotate(0deg) scale(0);
+/* Shimmer effect */
+@keyframes shimmerEffect {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 235, 10, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
   }
-  50%  {
-    opacity: 1;
-    transform: rotate(360deg) scale(1);
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 30px rgba(233, 228, 141, 0.6);
   }
   100% {
-    opacity: 0;
-    transform: rotate(720deg) scale(0);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+}
+
+
+/* MOBILE MOBILE MOBILE MOBILE MOBILE */
+@media only screen and (max-width: 768px) {
+  .top-menu {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .menu-item, .menu-item-active {
+    font-size: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  .content-container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .content-container h1, .content-container h2 {
+    width: 100%;
+    font-size: 1.5em;
+    padding-top: 5vh;
+    text-align: center;
+  }
+
+  .about {
+    font-size: 1.2em;
+    line-height: 22px;
+    padding: 10px;
+  }
+
+  h3 {
+    font-size: 15vh;
+    line-height: 10vh;
+    padding-left: 2vw;
+  }
+
+  #logo1 {
+    font-size: 5vw;
+    padding-left: 10vw;
+  }
+
+  #logo {
+    padding-left: 5vw;
   }
 }
